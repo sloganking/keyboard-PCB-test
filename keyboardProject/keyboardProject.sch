@@ -226,17 +226,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 4000 3450 4000
 Connection ~ 2750 4000
-$Comp
-L keyboardParts:GND #PWR?
-U 1 1 5F246F86
-P 2000 4000
-F 0 "#PWR?" H 2000 4050 20  0001 C CNN
-F 1 "GND" V 2000 4029 30  0000 L CNN
-F 2 "" H 2000 4000 60  0000 C CNN
-F 3 "" H 2000 4000 60  0000 C CNN
-	1    2000 4000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2100 4000 2000 4000
 $Comp
@@ -636,4 +625,42 @@ col1
 Wire Wire Line
 	8950 1700 8950 1850
 Connection ~ 8950 1850
+NoConn ~ 2150 3200
+NoConn ~ 3450 3500
+NoConn ~ 3450 3600
+NoConn ~ 3450 3700
+NoConn ~ 3450 3800
+NoConn ~ 3450 3900
+NoConn ~ 3450 2800
+NoConn ~ 3450 4500
+NoConn ~ 3450 4600
+NoConn ~ 3450 4700
+NoConn ~ 3450 4800
+NoConn ~ 3450 4900
+NoConn ~ 5600 4700
+NoConn ~ 5600 4600
+NoConn ~ 5600 4500
+NoConn ~ 5600 4000
+NoConn ~ 5600 4100
+NoConn ~ 5600 4200
+NoConn ~ 5600 4300
+NoConn ~ 5600 4400
+NoConn ~ 5600 3000
+NoConn ~ 5600 3100
+NoConn ~ 5600 3200
+NoConn ~ 5600 3300
+NoConn ~ 5600 3400
+NoConn ~ 5600 3500
+NoConn ~ 5600 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5F2FC66A
+P 2000 4000
+F 0 "#PWR?" H 2000 3750 50  0001 C CNN
+F 1 "GND" V 2005 3872 50  0000 R CNN
+F 2 "" H 2000 4000 50  0001 C CNN
+F 3 "" H 2000 4000 50  0001 C CNN
+	1    2000 4000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
